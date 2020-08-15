@@ -23,7 +23,11 @@ void Manager::print()
 {
 
 	cout << "Travel claims : " << travelClaims << endl;
-	Employee::print();
+	cout << "Name : " << name << endl;
+	cout << "Year Joined : " << yearJoined << endl;
+	cout << "Basic Salary : " << basicSalary << endl;
+	cout << "Allowance : " << allowance << endl;
+	
 }
 
 double Manager::calcMonthlySalary()

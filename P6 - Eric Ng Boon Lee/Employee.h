@@ -31,7 +31,7 @@ public:
 	double getAllowance();
 	void setAllowance(double allowance);
 
-	void print();
+	virtual void print();
 
 	virtual double calcMonthlySalary();
 };

@@ -26,8 +26,11 @@ void Clerk::print()
 {
 	cout << "Overtime Hours : " << overtimeHours << endl;
 	cout << "Overtime Rate : " << overtimeRate << endl;
+	cout << "Name : " << name << endl;
+	cout << "Year Joined : " << yearJoined << endl;
+	cout << "Basic Salary : " << basicSalary << endl;
+	cout << "Allowance : " << allowance << endl;
 
-	Employee::print();
 }
 
 double Clerk::calcMonthlySalary()
